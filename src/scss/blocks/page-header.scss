@@ -1,0 +1,38 @@
+.page-header {
+    display: block;
+    width: 100%;
+    &__top {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px, 60px;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    &__search-field {
+        flex-grow: 1;
+        max-width: 600px;
+        position: relative;
+    }
+    &__input-field {
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,0.5);
+        box-sizing: border-box;
+        padding: 16px 24px 16px 0;
+        width: 100%;
+    }
+    &__icon-search {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__cities {
+        text-decoration: none;
+        color: inherit;
+    }
+    &__main-navigation {
+        box-sizing: border-box;
+        padding: 30px 0;
+    }
+}
