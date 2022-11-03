@@ -1,0 +1,43 @@
+.banner {
+    background-color: #618C78;
+    display: flex;
+    align-items: center;
+    min-height: 592px;
+    &__inner {
+        display: flex;
+        gap: 50px;
+    }
+    &__title {
+        color: #F9F9F9;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 78px;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__img {
+        display: flex;
+        flex-shrink: 0;
+        gap: 20px 40px;
+        position: relative;
+        z-index: 10;
+    }
+    &__price {
+        bottom: 30px;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        left: -150px;
+        margin: 0;
+        min-width: 170px;
+        position: absolute;
+        padding: 16px 8px;
+        text-align: center;
+        z-index: -1;
+    }
+}
