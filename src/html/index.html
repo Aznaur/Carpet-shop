@@ -205,11 +205,11 @@
             </div>
         </div>
         <section class="slider">
-            <div class="slider__header">
+            <div class="slider__header container">
                 <h2 class="slider__header-title">Новинки</h2>
                 <a href="" class="slider__header-link">Все новинки</a>
                 <div class="slider__controls">
-                    <button class="slider__controls-item">
+                    <button class="slider__controls-item slider__controls-item--left">
                         <span class="icon icon__size-24">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.5" d="M10.8281 12L15.7781 7.05001L14.3641 5.63601L8.00008 12L14.3641 18.364L15.7781 16.95L10.8281 12Z" fill="#1D1D1D"/>
@@ -217,7 +217,7 @@
                         </span>
                         <span class="visually-hidden">Кнопка пролистать влево</span>
                     </button>
-                    <button class="slider__controls-item">
+                    <button class="slider__controls-item slider__controls-item--right">
                         <span class="icon icon__size-24">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path opacity="0.5" d="M10.8281 12L15.7781 7.05001L14.3641 5.63601L8.00008 12L14.3641 18.364L15.7781 16.95L10.8281 12Z" fill="#1D1D1D"/>
@@ -227,19 +227,15 @@
                     </button>
                 </div>
             </div>
-            <div class="slider__list">
+            <div class="slider__list container">
                 <div class="slider__item">
-                    <header class="slider__header">
+                    <header class="slider__item__header">
                         <p class="slider__sticker slider__sticker--new">Новинка</p>
-                        <span class="icon icon__size-24">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.001 1.98515C14.8197 -0.75307 19.1756 -0.662185 21.8912 2.28118C24.6055 5.22584 24.6991 9.91548 22.1744 12.9744L11.9986 24L1.82517 12.9744C-0.69958 9.91548 -0.604781 5.21805 2.10837 2.28118C4.82632 -0.65829 9.17384 -0.756965 12.001 1.98515ZM20.192 4.11575C18.3921 2.16562 15.4881 2.08642 13.6042 3.9171L12.0022 5.47252L10.399 3.9184C8.50905 2.08513 5.6111 2.16562 3.80634 4.11834C2.01837 6.05289 1.92837 9.14946 3.57594 11.1957L11.9998 20.3244L20.4236 11.197C22.0724 9.14946 21.9824 6.05678 20.192 4.11575Z" fill="currentColor"/>
-                            </svg>
-                        </span>
+                        <span class="slider__icon icon icon__size-24"></span>
                     </header>
                     <img src="../img/image-product.jpg" alt="" class="slider__img">
                     <div class="slider__description">
-                        <p class="slider__item-title">Aster Q893A LVIZON LVIZON</p>
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
                         <div class="slider__row">
                             <p class="slider__label">Размер:</p>
                             <p class="slider__value">60x100</p>
@@ -321,7 +317,870 @@
                         </div>
                         <div class="slider__column">
                             <p class="slider__column-label">В рассрочку</p>
-                            <p class="slider__column-value">13.333 <span class="slider__column-text">х 12 мес</span></p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">Новинка</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">Новинка</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">Новинка</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">Новинка</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="slider__header container">
+                <h2 class="slider__header-title">Скидки</h2>
+                <a href="" class="slider__header-link">Все cкидки</a>
+                <div class="slider__controls">
+                    <button class="slider__controls-item slider__controls-item--left">
+                        <span class="icon icon__size-24">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.5" d="M10.8281 12L15.7781 7.05001L14.3641 5.63601L8.00008 12L14.3641 18.364L15.7781 16.95L10.8281 12Z" fill="#1D1D1D"/>
+                            </svg>
+                        </span>
+                        <span class="visually-hidden">Кнопка пролистать влево</span>
+                    </button>
+                    <button class="slider__controls-item slider__controls-item--right">
+                        <span class="icon icon__size-24">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.5" d="M10.8281 12L15.7781 7.05001L14.3641 5.63601L8.00008 12L14.3641 18.364L15.7781 16.95L10.8281 12Z" fill="#1D1D1D"/>
+                            </svg>
+                        </span>
+                        <span class="visually-hidden">Кнопка пролистать вправо</span>
+                    </button>
+                </div>
+            </div>
+            <div class="slider__list container">
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">-20%</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">-20%</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">-20%</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">-20%</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
+                        </div>
+                    </footer>
+                </div>
+                <div class="slider__item">
+                    <header class="slider__item__header">
+                        <p class="slider__sticker slider__sticker--new">-20%</p>
+                        <span class="slider__icon icon icon__size-24"></span>
+                    </header>
+                    <img src="../img/image-product.jpg" alt="" class="slider__img">
+                    <div class="slider__description">
+                        <p class="slider__item-title">Aster Q893A LVIZON<br> LVIZON</p>
+                        <div class="slider__row">
+                            <p class="slider__label">Размер:</p>
+                            <p class="slider__value">60x100</p>
+                        </div>
+                        <div class="slider__row">
+                            <p class="slider__label">Производитель:</p>
+                            <p class="slider__value">Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="slider__row">
+                        <div class="slider__grade">
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <span class="slider__grade-item icon icon__size-16">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_59_287)">
+                                    <path opacity="0.5" d="M8.00002 12.174L3.29802 14.806L4.34802 9.52065L0.391357 5.86198L5.74269 5.22732L8.00002 0.333984L10.2574 5.22732L15.6087 5.86198L11.652 9.52065L12.702 14.806L8.00002 12.174Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_59_287">
+                                    <rect width="16" height="16" rx="8" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+                        </div>
+                        <p class="slider__row-title">0 отзывов</p>
+                    </div>
+                    <footer class="slider__footer">
+                        <div class="slider__column">
+                            <p class="slider__column-label">Цена</p>
+                            <p class="slider__column-value">160.000</p>
+                        </div>
+                        <div class="slider__column">
+                            <p class="slider__column-label">В рассрочку</p>
+                            <p class="slider__column-value"> <span class="slider__column-payment">13.333</span><span class="slider__column-text">х 12 мес</span></p>
                         </div>
                     </footer>
                 </div>
