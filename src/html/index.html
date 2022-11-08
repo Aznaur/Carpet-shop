@@ -12,8 +12,186 @@
 <body>
     //= ./template/header.html
     <main class="page-main">
+        <div class="backdrop"></div>
+        <div class="popup">
+            <div class="popup__header">
+                <p class="popup__title">Выберите ваш город</p>
+                <button class="popup__icon icon icon__size-24">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_61_973)">
+                        <path d="M12 10.586L16.95 5.63599L18.364 7.04999L13.414 12L18.364 16.95L16.95 18.364L12 13.414L7.04999 18.364L5.63599 16.95L10.586 12L5.63599 7.04999L7.04999 5.63599L12 10.586Z" fill="#1D1D1D"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_61_973">
+                        <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+            </div>
+            <div class="popup__main">
+                <label class="popup__label">
+                    <input class="popup__input" type="text">
+                    <button class="popup__icon popup__icon--search icon icon__size-24">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5" clip-path="url(#clip0_57_4)">
+                            <path d="M18.031 16.617L22.314 20.899L20.899 22.314L16.617 18.031C15.0237 19.3082 13.042 20.0029 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20.0029 13.042 19.3082 15.0237 18.031 16.617ZM16.025 15.875C17.2941 14.5699 18.0029 12.8204 18 11C18 7.132 14.867 4 11 4C7.132 4 4 7.132 4 11C4 14.867 7.132 18 11 18C12.8204 18.0029 14.5699 17.2941 15.875 16.025L16.025 15.875Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_57_4">
+                            <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </label>
+                <ul class="popup__sity">
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link is-active">Алматы</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Нур-Султан</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Аксай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Аксу</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Актау</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Актобе</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Алтай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Арысь</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Атырау</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Балшах</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Бейнеу</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Есик</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Жанаозен</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Жаркент</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Жезказган</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Жетысай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Капшагай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Караганда</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Каскелен</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Кентау</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Кокшетау</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Кордай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Костанай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Кульсары</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Кызылорда</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Лисаковск</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Павлодар</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Петропавловск</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Рудный</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Сарань</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Сатпаев</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Семей</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Степногорск</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Талгар</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Костанай</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Талдыкорган</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Тараз</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Текели</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Темиртау</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Туркестан</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Шахтинск</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Шу</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Шымкент</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Щучинск</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Экибастуз</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Шиели</a>
+                    </li>
+                    <li class="popup__sity-item">
+                        <a href="" class="popup__sity-link">Усть - Каменогорск</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <h1 class="visually-hidden">Интернет магазин ковров</h1>
-        <div class="banner">
+        <d iv class="banner">
             <div class="banner__inner container">
                 <div class="banner__text">
                     <p class="banner__title">Новая коллекция ковров Venetta</p>
@@ -25,7 +203,7 @@
                     <p class="banner__price">160.000 р.</p>
                 </div>
             </div>
-        </div>
+        </d>
     </main>
 
     <footer class="page-footer">

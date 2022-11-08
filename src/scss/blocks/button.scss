@@ -1,6 +1,6 @@
 .button {
     border: none;
-    background-color: #CB4A4A;
+    background-color: var(--button-primary-color);
     border-radius: 10px;
     cursor: pointer;
     color: #FFFFFF;
@@ -11,6 +11,6 @@
     padding: 16px 0;
     text-align: center;
     &:hover {
-        background-color: #AA3737;
+        background-color: var(--button-primary-hover);
     }
 }

@@ -3,6 +3,15 @@ img {
     max-width: 100%;
 }
 
+:root {
+    --discount-color: #618C78;
+    --button-primary-color: #CB4A4A;
+    --button-secondary-color: #618C78;
+    --button-primary-hover: #AA3737;
+    --button-secondary-hover: #4A695B;
+    --backdrop: rgba(40, 40, 40, 0.3);
+}
+
 .visually-hidden {
     height: 1px;
     margin: -1px;
@@ -20,6 +29,15 @@ img {
     max-width: 1277px;
     margin: 0 auto;
     padding: 0 16px;
+}
+.backdrop {
+    background-color: var(--backdrop);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
 }
 
 body {
