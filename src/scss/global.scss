@@ -31,6 +31,7 @@ img {
     padding: 0 16px;
 }
 .backdrop {
+    display: none;
     background-color: var(--backdrop);
     position: absolute;
     left: 0;

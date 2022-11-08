@@ -2,6 +2,10 @@
     display: inline-flex;
     position: relative;
     &__size {
+        &-16 {
+            height: 16px;
+            width: 16px;
+        }
         &-24 {
             height: 24px;
             width: 24px;
