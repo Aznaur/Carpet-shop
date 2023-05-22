@@ -1,0 +1,103 @@
+@mixin flex-column {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-footer {
+    background-color: #F2F2F2;
+    padding: 40px 0;
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 1277px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    &__col {
+        @include flex-column;
+        row-gap: 24px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0;
+    }
+    &__list {
+        @include flex-column;
+        row-gap: 16px;
+    }
+    &__link {
+        cursor: pointer;
+        color: rgba(29, 29, 29, 0.5);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+    &__contact {
+        background-repeat: no-repeat;
+        background-position: left center;
+        cursor: pointer;
+        color: var(--discount-color);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 32px;
+        text-decoration: none;
+    }
+    &__tell {
+        background-image: url('../../img/icon-phone.svg');
+    }
+    &__mail {
+        background-image: url('../../img/icon-email.svg');
+    }
+    &__social {
+        column-gap: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        &-link {
+            cursor: pointer;
+            color: #878787;
+            display: flex;
+            text-decoration: none;
+            &:hover {
+                color: #618C78;
+            }
+        }
+    }
+    &__subscription {
+        @include flex-column;
+        row-gap: 16px;
+        &-label {
+            color: #878787;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &-field {
+            display: grid;
+            grid-template-columns: 1fr 50px;
+        }
+        &-input {
+            box-sizing: border-box;
+            border: none;
+            border-radius: 10px 0 0 10px;
+            background-color: white;
+            color: #878787;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 15px 22px;
+            width: 100%;
+        }
+        &-btn {
+            border: none;
+            background-color: var(--button-secondary-color);
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+            padding: 0;
+        }
+    }
+}

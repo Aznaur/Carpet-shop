@@ -1,6 +1,5 @@
 .slider {
     display: block;
-    padding-top: 100px;
     &__header {
         align-items: center;
         display: flex;
@@ -37,6 +36,7 @@
         display: flex;
         column-gap: 40px;
         overflow: hidden;
+        padding-bottom: 20px;
     }
     &__item {
         background-color: white;
